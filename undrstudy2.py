@@ -48,7 +48,7 @@ def unfill_quoted_spaces(str_ary):
   return new_ary
 
 def map_char_and_emotion_to_portrait(name, emotion):
-  return name + emotion
+  return name + "_" + emotion
 
 def transform(fname):
   fname_no_ext = fname[:-4]
@@ -86,14 +86,16 @@ def transform(fname):
         side = char_map[raw_line_ary[1]]["side"]
         portrait_name = map_char_and_emotion_to_portrait(name, raw_line_ary[2])
 
-        func_line = to_line("show", [portrait_name, side])
+        func_line = to_line("myshow", [portrait_name, side])
+        to_json += func_line
+        func_line = to_line("active", [side])
         to_json += func_line
       else:
         func_line = to_line(cmd_name, raw_line_ary[1:])
         to_json += func_line
 
 
-  json_str = json.dumps(to_json, sort_keys=True, indent=4)
+  json_str = json.dumps(to_json, indent=4)
   new_json = fname_no_ext + ".json"
   with open(new_json, 'w') as json_file:
     json_file.write(json_str)

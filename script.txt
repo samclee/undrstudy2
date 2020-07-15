@@ -4,9 +4,9 @@ define d "Davonte" right
 
 label start
 play_music blerp
-bg "place"
+bg place
 
-"Intro dialogue of some kind"
+"Intro dialogue of some kind" 
 
 show c happy
 c "Hello dorks"
