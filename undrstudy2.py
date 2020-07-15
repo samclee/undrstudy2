@@ -90,6 +90,10 @@ def transform(fname):
         to_json += func_line
         func_line = to_line("active", [side])
         to_json += func_line
+      elif cmd_name == "hide":
+        side = char_map[raw_line_ary[1]]["side"]
+        func_line = to_line("myhide", [side])
+        to_json += func_line
       else:
         func_line = to_line(cmd_name, raw_line_ary[1:])
         to_json += func_line

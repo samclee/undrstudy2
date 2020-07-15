@@ -28,6 +28,9 @@ jump end_tag
 label no_tag
 "You chose no"
 
+hide d
+d byeeeeee
+
 label end_tag
 
 "End conv"

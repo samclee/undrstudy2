@@ -1,0 +1,238 @@
+[
+    {
+        "func_name": "label", 
+        "args": [
+            "start"
+        ]
+    }, 
+    {
+        "func_name": "play_music", 
+        "args": [
+            "blerp"
+        ]
+    }, 
+    {
+        "func_name": "bg", 
+        "args": [
+            "place"
+        ]
+    }, 
+    {
+        "func_name": "show_none", 
+        "args": []
+    }, 
+    {
+        "func_name": "hide_nameplate", 
+        "args": []
+    }, 
+    {
+        "func_name": "text", 
+        "args": [
+            "Intro dialogue of some kind"
+        ]
+    }, 
+    {
+        "func_name": "myshow", 
+        "args": [
+            "Hao Yu_happy", 
+            "left"
+        ]
+    }, 
+    {
+        "func_name": "active", 
+        "args": [
+            "left"
+        ]
+    }, 
+    {
+        "func_name": "nameplate", 
+        "args": [
+            "Hao Yu", 
+            "left"
+        ]
+    }, 
+    {
+        "func_name": "text", 
+        "args": [
+            "Hello dorks"
+        ]
+    }, 
+    {
+        "func_name": "nameplate", 
+        "args": [
+            "Hao Yu", 
+            "left"
+        ]
+    }, 
+    {
+        "func_name": "text", 
+        "args": [
+            "it's me"
+        ]
+    }, 
+    {
+        "func_name": "myshow", 
+        "args": [
+            "Davonte_happy", 
+            "right"
+        ]
+    }, 
+    {
+        "func_name": "active", 
+        "args": [
+            "right"
+        ]
+    }, 
+    {
+        "func_name": "nameplate", 
+        "args": [
+            "Davonte", 
+            "right"
+        ]
+    }, 
+    {
+        "func_name": "text", 
+        "args": [
+            "it me"
+        ]
+    }, 
+    {
+        "func_name": "nameplate", 
+        "args": [
+            "Davonte", 
+            "right"
+        ]
+    }, 
+    {
+        "func_name": "text", 
+        "args": [
+            "choose smtg"
+        ]
+    }, 
+    {
+        "func_name": "option", 
+        "args": [
+            "\"Choose yes\"", 
+            "yes_tag"
+        ]
+    }, 
+    {
+        "func_name": "option", 
+        "args": [
+            "\"Choose no\"", 
+            "no_tag"
+        ]
+    }, 
+    {
+        "func_name": "nameplate", 
+        "args": [
+            "Hao Yu", 
+            "left"
+        ]
+    }, 
+    {
+        "func_name": "text", 
+        "args": [
+            "hmm which do I choose"
+        ]
+    }, 
+    {
+        "func_name": "label", 
+        "args": [
+            "yes_tag"
+        ]
+    }, 
+    {
+        "func_name": "show_none", 
+        "args": []
+    }, 
+    {
+        "func_name": "hide_nameplate", 
+        "args": []
+    }, 
+    {
+        "func_name": "text", 
+        "args": [
+            "You chose yes"
+        ]
+    }, 
+    {
+        "func_name": "show_none", 
+        "args": []
+    }, 
+    {
+        "func_name": "hide_nameplate", 
+        "args": []
+    }, 
+    {
+        "func_name": "text", 
+        "args": [
+            "good job"
+        ]
+    }, 
+    {
+        "func_name": "jump", 
+        "args": [
+            "end_tag"
+        ]
+    }, 
+    {
+        "func_name": "label", 
+        "args": [
+            "no_tag"
+        ]
+    }, 
+    {
+        "func_name": "show_none", 
+        "args": []
+    }, 
+    {
+        "func_name": "hide_nameplate", 
+        "args": []
+    }, 
+    {
+        "func_name": "text", 
+        "args": [
+            "You chose no"
+        ]
+    }, 
+    {
+        "func_name": "myhide", 
+        "args": [
+            "right"
+        ]
+    }, 
+    {
+        "func_name": "nameplate", 
+        "args": [
+            "Davonte", 
+            "right"
+        ]
+    }, 
+    {
+        "func_name": "text", 
+        "args": [
+            "byeeeeee"
+        ]
+    }, 
+    {
+        "func_name": "label", 
+        "args": [
+            "end_tag"
+        ]
+    }, 
+    {
+        "func_name": "show_none", 
+        "args": []
+    }, 
+    {
+        "func_name": "hide_nameplate", 
+        "args": []
+    }, 
+    {
+        "func_name": "text", 
+        "args": [
+            "End conv"
+        ]
+    }
+]
