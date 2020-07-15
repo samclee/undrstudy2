@@ -1,0 +1,33 @@
+
+define c "Hao Yu" left
+define d "Davonte" right
+
+label start
+play_music blerp
+bg "place"
+
+"Intro dialogue of some kind"
+
+show c happy
+c "Hello dorks"
+c "it's me"
+
+show d happy
+d "it me"
+d "choose smtg"
+
+option "Choose yes" yes_tag
+option "Choose no" no_tag
+c "hmm which do I choose"
+
+label yes_tag
+"You chose yes"
+"good job"
+jump end_tag
+
+label no_tag
+"You chose no"
+
+label end_tag
+
+"End conv"
